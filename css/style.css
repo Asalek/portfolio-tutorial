@@ -1,0 +1,128 @@
+body{
+	margin: 0;
+	text-align: center;
+	font-size: 1.5em;
+	color: #40514E;
+}
+
+h1{
+	margin: 0 auto 0 auto;
+	font-size: 5.62rem;
+	color: #66BFBF;
+	font-family: 'Sacramento', cursive;
+	/* width: 10%;  if you use the width the text align center wont't work 
+	on the h1 so in order to center it you need to use margin auto in left
+	and right*/
+}
+
+h2{
+	font-family: 'Merriweather', serif;
+	font-size: 2.5rem;
+	color: #66BFBF;
+	font-weight: normal;
+}
+
+h3{
+	font-family: 'Montserrat', sans-serif;
+	color : #11999E
+}
+
+.top-container{
+	background-color: #e4f9f5;
+	position: relative;
+	padding-top: 100px;
+}
+
+.middle-container{
+	margin: 100px 0;
+}
+
+.bottom-container{
+	background-color: #66BFBF;
+	padding: 50px 0 20px;
+}
+
+.top-cloud{
+	position: absolute;
+	top: 45px;
+	right: 30%;
+}
+
+.bottom-cloud{
+	position: absolute;
+}
+
+.skill-row{
+	margin: 100px auto;
+	width: 50%;
+	text-align: left;
+	line-height: 2;
+}
+
+.image{
+	width: 25%;
+	border-radius: 50%;
+	float: left;
+	margin-right: 30px;
+}
+
+.imagee{
+	width: 25%;
+	border-radius: 50%;
+	float: right;
+	margin-left: 30px;
+}
+
+.intro{
+	width: 35%;
+	margin: 0 auto;
+}
+
+.contact{
+	width: 40%;
+	margin: 40px auto 60px;
+}
+
+hr{
+	border: dotted 12px #eaf6f6;
+	border-bottom: none;
+	width: 5%;
+	margin: 100px auto;
+
+}
+
+.btn{
+	background: #11cdd4;
+	background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+	background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+	background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+	background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+	background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+	border-radius : 8;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	text-decoration : none;
+}
+
+.btn:hover{
+	background: #30e3cb;
+	text-decoration: none;
+}
+
+a{
+	font-family: 'Montserrat', sans-serif;
+	color: #11999e;
+	margin: 10px 20px;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #eaf6f6;
+}
+
+#copyright{
+	color: #eaf6f6;
+	font-size: 0.75em;
+}
